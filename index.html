@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lev Tech - Sistema de Vendas Completo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Header Hero Section -->
+<header class="header-hero">
+    <img src="imgs/socios.png" alt="Equipe Lev Tech" class="background-image">
+    <div class="overlay"></div>
+    <div class="header-content">
+        <div class="logo">Lev Tech</div>
+        <div class="headline">
+            <div class="headline-top">Tire seu negócio do zero</div>
+            <div class="headline-main">No Digital</div>
+        </div>
+        <button class="header-cta-button" onclick="scrollToPrice()">Quero Vender Mais!</button>
+    </div>
+</header>
+
+<section class="problem-section">
+    <h2>Você já se pegou nessa situação? Se sim,<br>tenho uma pergunta para te fazer....</h2>
+
+    <div class="problem-image">
+        <div class="img-wrapper">
+            <img src="imgs/adult-person-working-home-computer-night.jpg" alt="Pessoa trabalhando a noite cansada">
+        </div>
+    </div>
+
+    <div class="arrow-down">↓</div>
+
+    <div class="questions-grid">
+        <div class="question-card">
+            <div class="question-number">1</div>
+            <p>Você já tentou vender pela internet, mas só ficou <span class="highlight-text">frustrado</span> e não
+                conseguiu vender?</p>
+        </div>
+
+        <div class="question-card">
+            <div class="question-number">2</div>
+            <p>Você já postou mensagens em grupos e redes sociais, mas <span class="highlight-text">ninguém se interessou</span>?
+            </p>
+        </div>
+
+        <div class="question-card">
+            <div class="question-number">3</div>
+            <p>Você quer vender todos os dias, mas <span class="highlight-text">não tem organização</span> para isso?
+            </p>
+        </div>
+
+        <div class="question-card">
+            <div class="question-number">4</div>
+            <p>Quer levar seu plano clássico ao próximo <span class="highlight-text">nível em Whatsapp?</span></p>
+        </div>
+
+        <div class="question-card">
+            <div class="question-number">5</div>
+            <p>Você não sabe quais anúncios funcionam, quem responde ou <span
+                    class="highlight-text">como acompanhar?</span></p>
+        </div>
+
+        <div class="question-card">
+            <div class="question-number">6</div>
+            <p>Você sente falta de um caminho estruturado, que <span
+                    class="highlight-text">funcione mesmo sendo você</span> sozinho?</p>
+        </div>
+    </div>
+</section>
+
+<section class="benefits-section">
+    <h2>Não ter um sistema de vendas estruturado pode estar travando o crescimento do seu negócio.</h2>
+
+    <div class="benefits-grid">
+        <div class="benefit-card">
+            <div class="benefit-icon">🏠</div>
+            <h3>Controle total de vendas</h3>
+            <p>Gerencie todos os seus pedidos e clientes em um só lugar, com organização profissional para crescer.</p>
+        </div>
+
+        <div class="benefit-card">
+            <div class="benefit-icon">🔄</div>
+            <h3>Processo automatizado</h3>
+            <p>Automatize lembretes, acompanhamento de clientes e muito mais para vender mesmo dormindo.</p>
+        </div>
+
+        <div class="benefit-card">
+            <div class="benefit-icon">🔧</div>
+            <h3>Aumente sua vendas</h3>
+            <p>Organize seu negócio com CRM integrado e aumente suas vendas com estratégias que funcionam.</p>
+        </div>
+
+        <div class="benefit-card">
+            <div class="benefit-icon">✨</div>
+            <h3>Comece agora</h3>
+            <p>Sistema completo e pronto para usar. Comece a vender profissionalmente hoje mesmo.</p>
+        </div>
+    </div>
+</section>
+
+<section class="product-section">
+    <div class="product-container">
+        <div class="phone-mockup">
+            <img src="imgs/celular.png" alt="Interface Lev Tech Mobile" class="floating-phone">
+        </div>
+
+        <div class="product-info">
+            <h2>Lev Tech – Seu sistema de vendas completo</h2>
+            <p><strong>Transforme visitantes em clientes com um sistema de vendas inteligente.</strong></p>
+            <p>Na Lev Tech, conectamos <strong>site profissional, funil de vendas, CRM e automações</strong> para gerar
+                vendas previsíveis e crescimento real para o seu negócio.</p>
+            <p>Transforme sua forma de vender com tecnologia profissional ao seu alcance.</p>
+            <button class="cta-button mobile-btn" onclick="scrollToPrice()">Ver Oferta</button>
+        </div>
+    </div>
+</section>
+
+<section class="pricing-section" id="pricing">
+    <div class="alert-badge">⚠️ ATENÇÃO: Essa oferta é limitada e pode acabar a qualquer momento</div>
+
+    <div class="pricing-container">
+        <div class="pricing-card">
+            <p style="color: #666; margin-bottom: 10px;">Valor total de R$ 1.250,00</p>
+            <p class="old-price">Por apenas:</p>
+            <div class="current-price"><small>12x</small> R$9,60</div>
+            <p class="installment">Ou R$ 97,00 à vista</p>
+            <button class="buy-button" onclick="handlePurchase()">QUERO VENDER MAIS</button>
+            <p style="margin-top: 20px; font-size: 12px; color: #999;">✓ Pagamento 100% Seguro</p>
+            <div class="payment-icons">💳 📄 💠</div>
+        </div>
+
+        <div class="guarantee-card">
+            <h3>🎁 ENTREGA GARANTIDA</h3>
+            <p><strong>O seu investimento vira estrutura real.</strong></p>
+            <p>Ao contratar nossa promoção, você recebe o site pronto e funcional, desenvolvido para gerar resultados de
+                verdade.</p>
+            <ul>
+                <li>Site profissional entregue e publicado</li>
+                <li>Estrutura pensada para conversão</li>
+                <li>Suporte técnico após a entrega</li>
+                <li>Manutenção básica incluída</li>
+                <li>Ajustes iniciais para o site funcionar corretamente</li>
+            </ul>
+            <p style="margin-top: 20px; font-weight: bold; color: #ff6600;">É um ativo digital que passa a ser seu.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>Todos os direitos reservados à @levtech</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
