@@ -398,10 +398,11 @@ body {
     min-width: 300px;
 }
 
-.product-info h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: #000;
+.product-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .product-info p {
@@ -409,6 +410,10 @@ body {
     color: #444;
     margin-bottom: 15px;
     font-size: 16px;
+}
+
+.product-info .header-cta-button {
+    align-self: center;
 }
 
 .mobile-btn {
@@ -567,6 +572,7 @@ footer {
 /* ========================================
    RESPONSIVE DESIGN
    ======================================== */
+   
 
 @media (max-width: 1024px) {
     .header-content {
@@ -640,6 +646,12 @@ footer {
     .product-info {
         text-align: center;
     }
+
+    .phone-mockup {
+        display: none;
+    }
+
+    
 }
 
 @media (max-width: 480px) {
