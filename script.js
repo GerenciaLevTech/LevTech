@@ -5,8 +5,8 @@ function scrollToPrice() {
 }
 
 function handlePurchase() {
-    // Simulação de checkout
-    alert("🎉 Redirecionando para o checkout seguro...");
+    const linkCakto = "https://pay.cakto.com.br/7uv7wvr_748982"; 
+    window.location.href = linkCakto;
 }
 
 // Animação suave ao scroll (Fade In)
@@ -34,5 +34,6 @@ const observer = new IntersectionObserver(
     },
     {threshold: 0.1},
 );
+
 
 cards.forEach((card) => observer.observe(card));
